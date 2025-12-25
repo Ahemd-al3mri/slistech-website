@@ -29,7 +29,7 @@ The official website for **SLISTECH** (Sohar Leaders in Information Systems & Te
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/slistech-website.git
+   git clone https://github.com/Ahemd-al3mri/slistech-website.git
    cd slistech-website
    ```
 
