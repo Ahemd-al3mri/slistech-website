@@ -1,0 +1,53 @@
+/* Global Styles for SLISTECH */
+
+@font-face {
+  font-family: 'Codec Pro';
+  src: url('/font/CodecPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #F5F7FA;
+  font-family: 'Codec Pro', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Ensure smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Dark mode support */
+.dark body {
+  background-color: #001540;
+  color: #F5F7FA;
+}
+
+/* Official Font Utilities */
+.codec-pro-slistech { 
+  font-family: "Codec Pro", sans-serif; 
+  font-weight: 400; 
+  font-style: normal; 
+} 
+

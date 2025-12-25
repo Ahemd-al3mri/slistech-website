@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLISTECH | Enterprise IT & Security Solutions in Sohar, Oman</title>
+    <meta name="description" content="SLISTECH is the leading IT infrastructure, security, and software provider in North Al Batinah. Specialized in industrial networking, ROP-compliant CCTV, and ERP solutions for Sohar's enterprise sector." />
+    <meta name="keywords" content="IT Support Sohar, Network Infrastructure Oman, CCTV Installation Sohar, ERP Software Oman, SLISTECH, IT AMC Sohar" />
+    <link rel="icon" type="image/png" href="/Favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: "#00D2E9", // Cyan
+              "primary-dark": "#00acc1", 
+              "primary-light": "#33DDEF", 
+              "background-light": "#F5F7FA", 
+              "background-dark": "#001540", 
+              "navy": "#002060", 
+              "navy-dark": "#001540", 
+              "navy-light": "#1e3a8a", 
+              "gray-100": "#F5F7FA",
+              "gray-700": "#4A5568",
+              "gray-900": "#1F2937",
+              "error": "#ef4444",
+            },
+            fontFamily: {
+              sans: ['Codec Pro', 'sans-serif'],
+              heading: ['Codec Pro', 'sans-serif'],
+              arabic: ['Codec Pro', 'Cairo', 'sans-serif'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'pulse-glow': 'pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'bounce-horizontal': 'bounce-x 1s infinite',
+              'fade-in-up': 'fade-in-up 0.8s ease-out forwards',
+              'marquee': 'marquee 30s linear infinite',
+              'marquee-rtl': 'marquee-rtl 30s linear infinite',
+            },
+            keyframes: {
+              'pulse-glow': {
+                '0%, 100%': { opacity: '1', boxShadow: '0 0 0 0px rgba(0, 210, 233, 0.7)' },
+                '50%': { opacity: '1', boxShadow: '0 0 0 10px rgba(0, 210, 233, 0)' },
+              },
+              'bounce-x': {
+                '0%, 100%': { transform: 'translateX(0)' },
+                '50%': { transform: 'translateX(25%)' },
+              },
+              'fade-in-up': {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              'marquee': {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              'marquee-rtl': {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(50%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Codec Pro', sans-serif;
+        font-feature-settings: 'ss01' on, 'ss02' on, 'cv01' on, 'cv02' on;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #002060;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00D2E9;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Codec Pro', sans-serif;
+        letter-spacing: -0.02em;
+      }
+      
+      [dir="rtl"] *:not(.material-symbols-outlined) {
+        font-family: 'Codec Pro', 'Cairo', sans-serif !important;
+        letter-spacing: 0 !important;
+      }
+      
+      .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined' !important;
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      }
+      
+      .filled-icon {
+        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      [dir="rtl"] .animate-marquee {
+        animation-name: marquee-rtl;
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
